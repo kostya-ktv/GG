@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.footer{
+   @include flexCenterFlex;
+   justify-content: space-evenly;
+   font-size: 0.7rem;
+   svg {
+      height: 25px;
+      width: 25px;
+      fill: rgb(192, 186, 186);
+      &:hover {
+         transition: all 0.3s;
+         fill: white;
+         transform: translateY(-1%);
+         transform: scale(1.2);
+      }
+   }
+   .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & p {
+         cursor: pointer;
+      }
+   }
+}

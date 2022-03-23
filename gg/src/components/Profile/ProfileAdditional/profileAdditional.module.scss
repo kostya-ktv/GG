@@ -1,0 +1,9 @@
+@import '../../../styles/variables.scss';
+
+.additional_details {
+   width: 100px;
+   padding: 3px;
+   background-color: $background-default;
+   border-radius: $border-radius;
+   margin: 0 3px;
+}

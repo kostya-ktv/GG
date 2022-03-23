@@ -1,0 +1,9 @@
+$background-default: rgba(0, 0, 0, 0.3);
+$font-color-default: rgb(218, 218, 218);
+$border-radius: 15px;
+
+@mixin flexCenterFlex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
